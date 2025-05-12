@@ -16,6 +16,4 @@ async function loginUser(email, password) {
   return jwt.sign({ email }, JWT_SECRET, { expiresIn: "30d" });
 }
 
-addUser("qwe123@qwe.ru", "qwe123");
-
 module.exports = { addUser, loginUser };

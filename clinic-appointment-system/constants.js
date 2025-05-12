@@ -1,3 +1,3 @@
 module.exports = {
-  JWT_SECRET: "appClinicSecret",
+  JWT_SECRET: process.env.JWN_SECRET,
 };
